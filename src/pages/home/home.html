@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      This is title
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  Be happy
+  <p>
+    First class >>> counter.
+    {{counter}}
+    {{message}}
+  </p>
+
+
+  <button ion-button clear (click)="increment()">Increment</button>
+  <button ion-button color="secondary" clear (click)="decrement()">Decrement</button>
+  <button ion-button color="danger" clear (click)="reset()">Reset</button>
+
+</ion-content>
